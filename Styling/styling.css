@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600&display=swap');
+
+
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Heebo', sans-serif;
 }
 
 .container{
@@ -26,4 +31,244 @@
     background-color: #1D1D1D;
     width: 50%;
     height: 100%;
+    z-index: -2;
+}
+
+
+.lcontainer .logo{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 57px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+
+.rcontainer .nav{
+    position: absolute;
+    width: 380px;
+    height: 29px;
+    right: 57px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;   
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.rcontainer .reviews{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    right: 100px;
+    top: 163px;
+    background: #950101;
+}
+
+
+.lcontainer .ltext{
+    position: absolute;
+    width: 50%;
+    left: 180px;
+}
+
+.lcontainer h1{
+    position: absolute;
+    width: 350px;
+    height: 59px;
+    top: 250px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.lcontainer .h1baby{
+    position: absolute;
+    width: 200px;
+    color: #950101;
+    top: 361px;
+    left: 245px;
+    font-size: 30px;
+}
+
+.ltext p .h1body{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ltext p{
+    position: absolute;
+    top: 450px;
+    left: 5px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+.lcontainer button{
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 185px;
+    top: 578px;
+    font-size: 15px;
+    color: white;
+    background: #950101;
+    border: none;
+    border-radius: 13px;
+}
+
+.lcontainer .secondarybutton{
+    position: absolute;
+    font-size: 15px;
+    left: 350px;
+    top: 592px;
+    color: white;
+}
+
+
+.lcontainer img{
+    position: absolute;
+    width: 480px;
+    height: 296px;
+    left: -190px;
+    top: 700px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.lcontainer .bottompaint{
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    height: 350px;
+    left: -120px;
+    background: #950101;
+    filter: blur(200px);
+}
+
+
+
+
+.lcontainer .brand  #one{
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    left: 374px;
+    top: 850px;
+}
+
+.lcontainer .brand  #two{
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    left: 490px;
+    top: 850px;
+}
+
+.lcontainer .brand  #three{
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    left: 620px;
+    top: 850px;
+}
+
+
+
+
+.rimg #rimg{
+    position: absolute;
+    width: 1000px;
+    height: 650px;
+    right: 400px;
+    top: 150px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.rimg .shadow{
+    position: absolute;
+    width: 400px;
+    height: 31px;
+    right: 500px;
+    top: 782px;
+    background: #000000;
+    filter: blur(35px);
+}
+
+.belowtext #one{
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    right: 800px;
+    top: 830px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.belowtext #two{
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    right: 650px;
+    top: 830px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.belowtext #three{
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    right: 500px;
+    top: 830px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.belowtext #four{
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    right: 350px;
+    top: 830px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
 }
