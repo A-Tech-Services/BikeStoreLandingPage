@@ -86,6 +86,19 @@
 }
 
 
+.reviews i{
+    margin-top: 28px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.reviews P{
+    color: white;
+    text-align: center;
+}
+
+
 .lcontainer .ltext{
     position: absolute;
     width: 50%;
